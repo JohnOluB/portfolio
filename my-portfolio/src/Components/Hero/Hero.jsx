@@ -8,8 +8,7 @@ import BlurText from "../BlurText";
 
 const Hero = () => {
   return (
-    <div>
-<BlurText
+    <BlurText
   text="JOHN ADEBAYO"
   delay={150}
   animateBy="words"
@@ -17,8 +16,9 @@ const Hero = () => {
   onAnimationComplete={handleAnimationComplete}
   className="text-2xl mb-8"
 />
-    </div>
   )
 }
 
 export default Hero
+
+
