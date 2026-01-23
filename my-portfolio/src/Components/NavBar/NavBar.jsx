@@ -1,16 +1,14 @@
 import React from 'react'
-import './NavBar.css'
+
 
 const NavBar = () => {
   return (
-    <nav>
-      <div className="flex-center justify-center items-center direction-row gap-5">
-          <p>Home</p>
+      <div className="flex-center justify-center items-center direction-row gap-30">
+          <p className='text-pink-500'>Home</p>
           <p>Projects</p>
           <p>Skills</p>
           <p>Contact</p>
       </div>
-    </nav>
   )
 }
 

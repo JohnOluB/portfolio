@@ -14,7 +14,7 @@ const Hero = () => {
   animateBy="words"
   direction="top"
   onAnimationComplete={handleAnimationComplete}
-  className="text-2xl mb-8"
+  className="text-2xl mb-2"
 />
   )
 }
