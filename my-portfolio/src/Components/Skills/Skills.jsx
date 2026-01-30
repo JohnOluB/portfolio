@@ -10,7 +10,9 @@ import viteLogo from "../../assets/Vite.js.svg"
 
 const Skills = () => {
   return (
-    <div className='flex justify-center items-center gap-12'>
+    <div className='flex-col justify-center items-center'>
+      <span className='text-2xl'>Expertise</span>
+      <div className='flex gap-12'>
         <div className='h-30 w-30 border flex justify-center items-center'><img src={reactLogo} alt="react logo"/></div>
         <div className='h-30 w-30 border flex justify-center items-center'><img src={nextjsLogo} alt='nextjs logo' className="w-8"/></div>
         <div className='h-30 w-30 border flex justify-center items-center'><img src={tailwindLogo} alt='tailwind logo'/></div>
@@ -19,6 +21,7 @@ const Skills = () => {
         <div className='h-30 w-30 border flex justify-center items-center'><img src={mongodbLogo} alt='mongodb logo'/></div>
         <div className='h-30 w-30 border flex justify-center items-center'><img src={expressLogo} alt='express logo'/></div>
         <div className='h-30 w-30 border flex justify-center items-center'><img src={viteLogo} alt='nodejs logo'/></div>
+      </div>
     </div>
   )
 }
