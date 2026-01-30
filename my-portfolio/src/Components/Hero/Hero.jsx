@@ -14,7 +14,7 @@ const Hero = () => {
   animateBy="words"
   direction="top"
   onAnimationComplete={handleAnimationComplete}
-  className="text-2xl mb-2"
+  className="text-2xl mb-2 font-stretch-semi-condensed text-amber-500"
 />
   )
 }

@@ -12,7 +12,7 @@ const Skills = () => {
   return (
     <div className='flex justify-center items-center gap-12'>
         <div className='h-30 w-30 border flex justify-center items-center'><img src={reactLogo} alt="react logo"/></div>
-        <div className='h-30 w-30 border flex justify-center items-center'><img src={nextjsLogo} alt='nextjs logo'/></div>
+        <div className='h-30 w-30 border flex justify-center items-center'><img src={nextjsLogo} alt='nextjs logo' className="w-8"/></div>
         <div className='h-30 w-30 border flex justify-center items-center'><img src={tailwindLogo} alt='tailwind logo'/></div>
         <div className='h-30 w-30 border flex justify-center items-center'><img src={javascriptLogo} alt='javascript logo'/></div>
         <div className='h-30 w-30 border flex justify-center items-center'><img src={typescriptLogo} alt='typescript logo'/></div>
