@@ -1,4 +1,5 @@
 import React from 'react'
+import {NavLink} from 'react-router-dom'
 
 
 const NavBar = () => {
@@ -6,11 +7,11 @@ const NavBar = () => {
       <div className="flex mt-4 text-2xl">
          <span className='flex-1 ml-3'>JOHN ADEBAYO</span>
         <div className='mr-20'>
-          <span>Home</span>
-          <span>About</span>
-          <span>Projects</span>
-          <span>Articles</span>
-          <span>Contact</span>
+          <NavLink to='/' className={({isActive})=>{ {isActive ? 'text-orange-700':'text-grey-700'}}}>Home</NavLink>
+          <NavLink to='about'>About</NavLink>
+          <NavLink to='Projects'>Projects</NavLink>
+          <NavLink to='Articles'>Articles</NavLink>
+          <NavLink to='Contact'>Contact</NavLink>  
           <img src="" alt="oi" />
         </div>
       </div>
