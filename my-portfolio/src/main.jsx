@@ -8,7 +8,7 @@ import About from './Components/About/About'
 import Skills from './Components/Skills/Skills'
 import Projects from './Components/Projects/Projects'
 import Articles from './Components/Articles/Article'
-import Contact from './Components/COntact/Contact'
+import Contact from './Components/Contact/Contact.jsx'
 
 const router = createBrowserRouter(
   createRoutesFromElements(
