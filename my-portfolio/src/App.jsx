@@ -6,7 +6,7 @@ import Skills from './Components/Skills/Skills'
 import About from './Components/About/About'
 import Projects from './Components/Projects/Projects'
 import Articles from './Components/Articles/Article'
-import Contact from './Components/COntact/Contact'
+import Contact from './Components/Contact/Contact'
 
 
 
